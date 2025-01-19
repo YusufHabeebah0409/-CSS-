@@ -1,27 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Link State & Button Styling</title>
     <style>
-    a{
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      a {
         text-decoration: none;
         color: #333;
-    }
-    a:hover{
+      }
+      /* a:hover{
         color: coral;
         text-decoration: underline;
-    }
-    /* a:visited{
+    } */
+
+      /* a:visited{
         color: red;
     } */
-     :active{
+
+      /* a:active{
         color: red;
-     }
+     } */
+
+      .btn {
+        background-color: #4c6ca0;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        color: #f4f4f4;
+        background: #446190;
+      }
     </style>
-</head>
-<body>
-    <a href="#"> Click Here</a>
-</body>
+  </head>
+  <body>
+    <br />
+    <a class="btn" href="#"> Click Here</a>
+    <br />
+    <br />
+    <button class="btn">My Button</button>
+  </body>
 </html>
