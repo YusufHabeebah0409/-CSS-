@@ -12,16 +12,60 @@
         }
         body{
             background:#344a72 ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         a{
             text-decoration: none;
         }
         #container{
-            max-width: 50%;
+            max-width: 35%;
            margin: auto;
-           padding: 50px;
+           padding: 20px;
            
         }
+        .form-wrap{
+            background: white;
+        }
+        .form-wrap h2 , .form-wrap p {
+            text-align: center;
+            line-height: 1.7em;
+        }
+        .form-wrap .form-group {
+            margin: 15px;
+        }
+        .form-wrap .form-group label {
+            display: block;
+        }
+        .form-wrap .form-group input {
+            width: 100%;
+            padding: 10px;
+        }
+        .form-wrap button {
+            display: block;
+            width: 100%;
+            border: none;
+            background: #49c1ac;
+             padding: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 5px;
+            font-size: 17px;  
+            color: aliceblue;  
+        }
+        .form-wrap button:hover {
+            background: #37a08e;
+        }
+         .form-group p {
+            padding: 17px;
+            font-size: smaller;
+        }
+        footer{
+            text-align: center;
+            color: aliceblue;
+        }
+        footer a {
+            color: #49c1ac;
+        }
+       
 
     </style>
 </head>
@@ -51,9 +95,9 @@
                     <label for="confirmPassword"> Confirm Password</label>
                     <input type="password" name="confirmPassword" id="confirmPassword" required>
                 </div>
-                <div>
+                <div class="form-group">
                     <button type="submit" class="btn"> Sign Up</button>
-                    <p class="btn-text">
+                    <p class="btn-text" >
                         By Clicking the sign up button , you agree to our 
                         <a href="#"> Terms & Condition</a>
                         <a href="#">Privacy and Policy</a>
