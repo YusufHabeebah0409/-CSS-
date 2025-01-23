@@ -4,8 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Styling</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background:#344a72 ;
+        }
+        a{
+            text-decoration: none;
+        }
+        #container{
+            max-width: 50%;
+           margin: auto;
+           padding: 50px;
+           
+        }
+
+    </style>
 </head>
 <body>
-    
+    <div id="container">
+        <div class="form-wrap">
+            <h2>Sign Up</h2>
+            <p>it's Free and only takes a minute </p>
+            <form>
+                <div class="form-group">
+                    <label for="firstName"> First Name</label>
+                    <input type="text" name="firstName" id="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName"> Last Name</label>
+                    <input type="text" name="lastName" id="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email"> Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password"> Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword"> Confirm Password</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" required>
+                </div>
+                <div>
+                    <button type="submit" class="btn"> Sign Up</button>
+                    <p class="btn-text">
+                        By Clicking the sign up button , you agree to our 
+                        <a href="#"> Terms & Condition</a>
+                        <a href="#">Privacy and Policy</a>
+                    </p>
+                </div>
+            </form>      
+        </div>
+        <footer>
+          <p> Already Have an Account <a href="#">Login Here</a></p>      
+        </footer>
+    </div>
 </body>
 </html>
