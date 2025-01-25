@@ -1,116 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form Styling</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body{
-            background:#344a72 ;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        a{
-            text-decoration: none;
-        }
-        #container{
-            max-width: 35%;
-           margin: auto;
-           padding: 20px;
-           
-        }
-        .form-wrap{
-            background: white;
-        }
-        .form-wrap h2 , .form-wrap p {
-            text-align: center;
-            line-height: 1.7;
-        }
-        .form-wrap .form-group {
-            margin: 15px;
-        }
-        .form-wrap .form-group label {
-            display: block;
-        }
-        .form-wrap .form-group input {
-            width: 100%;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #ddd;
-        }
-        .form-wrap button {
-            display: block;
-            width: 100%;
-            border: none;
-            background: #49c1ac;
-             padding: 10px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            border-radius: 5px;
-            font-size: 17px;  
-            color: aliceblue; 
-            cursor: pointer; 
-        }
-        .form-wrap button:hover {
-            background: #37a08e;
-        }
-         .form-group p {
-            padding: 17px;
-            font-size: smaller;
-        }
-        footer{
-            text-align: center;
-            color: aliceblue;
-        }
-        footer a {
-            color: #49c1ac;
-        }
-       
-
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: #344a72;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      a {
+        text-decoration: none;
+      }
+      #container {
+        max-width: 35%;
+        margin: auto;
+        padding: 20px;
+      }
+      .form-wrap {
+        background: white;
+      }
+      .form-wrap h2,
+      .form-wrap p {
+        text-align: center;
+        line-height: 1.7;
+      }
+      .form-wrap .form-group {
+        margin: 15px;
+      }
+      .form-wrap .form-group label {
+        display: block;
+      }
+      .form-wrap .form-group input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+      }
+      .form-wrap button {
+        display: block;
+        width: 100%;
+        border: none;
+        background: #49c1ac;
+        padding: 10px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 5px;
+        font-size: 17px;
+        color: aliceblue;
+        cursor: pointer;
+      }
+      .form-wrap button:hover {
+        background: #37a08e;
+      }
+      .form-group p {
+        padding: 17px;
+        font-size: smaller;
+      }
+      footer {
+        text-align: center;
+        color: aliceblue;
+      }
+      footer a {
+        color: #49c1ac;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="container">
-        <div class="form-wrap">
-            <h2>Sign Up</h2>
-            <p>it's Free and only takes a minute </p>
-            <form>
-                <div class="form-group">
-                    <label for="firstName"> First Name</label>
-                    <input type="text" name="firstName" id="firstName" required>
-                </div>
-                <div class="form-group">
-                    <label for="lastName"> Last Name</label>
-                    <input type="text" name="lastName" id="lastName" required>
-                </div>
-                <div class="form-group">
-                    <label for="email"> Email</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="password"> Password</label>
-                    <input type="password" name="password" id="password" required>
-                </div>
-                <div class="form-group">
-                    <label for="confirmPassword"> Confirm Password</label>
-                    <input type="password" name="confirmPassword" id="confirmPassword" required>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn"> Sign Up</button>
-                    <p class="btn-text" >
-                        By Clicking the sign up button , you agree to our 
-                        <a href="#"> Terms & Condition</a>
-                        <a href="#">Privacy and Policy</a>
-                    </p>
-                </div>
-            </form>      
-        </div>
-        <footer>
-          <p> Already Have an Account <a href="#">Login Here</a></p>      
-        </footer>
+      <div class="form-wrap">
+        <h2>Sign Up</h2>
+        <p>it's Free and only takes a minute</p>
+        <form>
+          <div class="form-group">
+            <label for="firstName"> First Name</label>
+            <input type="text" name="firstName" id="firstName" required />
+          </div>
+          <div class="form-group">
+            <label for="lastName"> Last Name</label>
+            <input type="text" name="lastName" id="lastName" required />
+          </div>
+          <div class="form-group">
+            <label for="email"> Email</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="password"> Password</label>
+            <input type="password" name="password" id="password" required />
+          </div>
+          <div class="form-group">
+            <label for="confirmPassword"> Confirm Password</label>
+            <input
+              type="password"
+              name="confirmPassword"
+              id="confirmPassword"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn">Sign Up</button>
+            <p class="btn-text">
+              By Clicking the sign up button , you agree to our
+              <a href="#"> Terms & Condition</a>
+              <a href="#">Privacy and Policy</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      <footer>
+        <p>Already Have an Account <a href="#">Login Here</a></p>
+      </footer>
     </div>
-</body>
+  </body>
 </html>

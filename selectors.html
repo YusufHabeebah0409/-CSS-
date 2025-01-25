@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Selectors</title>
     <style>
-       /* Element selectors  */
-       body{
+      /* Element selectors  */
+      body {
         background-color: bisque;
-       }
+      }
 
-        /* . is for classes */
-        .Primary-heading{
-    color: green;
-}
-/* #is for id  */
-#welcome{
-    background-color: #f4f4f4;
-}
-/* Multiple selectors  */
-#welcome, #about{
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 5px;
-}
- /* Nested selectors  */
- #welcome p {
-    font-size: 20px;
- }
+      /* . is for classes */
+      .Primary-heading {
+        color: green;
+      }
+      /* #is for id  */
+      #welcome {
+        background-color: #f4f4f4;
+      }
+      /* Multiple selectors  */
+      #welcome,
+      #about {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 5px;
+      }
+      /* Nested selectors  */
+      #welcome p {
+        font-size: 20px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="welcome">
-        <h2 class="Primary-heading">Welcome</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus facilis nisi quae quis porro alias recusandae inventore quasi maiores? Pariatur!</p>
+      <h2 class="Primary-heading">Welcome</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus
+        facilis nisi quae quis porro alias recusandae inventore quasi maiores?
+        Pariatur!
+      </p>
     </div>
     <div id="about">
-        <h2>About</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus facilis nisi quae quis porro alias recusandae inventore quasi maiores? Pariatur!</p>
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus
+        facilis nisi quae quis porro alias recusandae inventore quasi maiores?
+        Pariatur!
+      </p>
     </div>
-</body>
+  </body>
 </html>
