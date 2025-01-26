@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+        font-family: Arial, sans-serif;
+        background: burlywood;
+      }
+      .container{
+        max-width: 50%;
+        margin: auto;
+        padding: 20px;
+      }
+        .contact-form{
+            background: bisque;
+            padding: 20px;
+            border-radius: 10px;
+           
+        }
+        .contact-form h1{
+            text-align: center;
+            padding: 10px;
+            color: chocolate;
+        }
+        .form-group{
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        .form-group label{
+           display: block;
+           color:chocolate;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            background: navajowhite;
+            border: 1px solid burlywood;
+        }
+        .form-group textarea{
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            background: navajowhite;
+            border: 1px solid burlywood;
+        }
+        .submit input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            background:rgb(207, 158, 94);
+            border: none;
+            cursor: pointer; 
+            font-weight: bolder;
+            font-size: 18px; 
+            color:chocolate;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-form">
+            <h1>Contact Us</h1>
+            <form > 
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="Message">Message</label>
+                    <br>
+                    <textarea name="Message" id="Message" rows="7" cols="8"></textarea>
+                </div>
+                <div  class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
