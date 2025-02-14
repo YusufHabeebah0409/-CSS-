@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex basics</title>
     <style>
-        #container{
+        #container {
             display: flex;
             /* flex-direction: column; */
             /* flex-direction: row; */
             /* flex-wrap: wrap ; */
             flex-flow: row wrap;
         }
-        .item{
+
+        .item {
             background: #f4f4f4;
             border: #ccc solid 1px;
             padding: 1rem;
@@ -20,12 +22,13 @@
             flex: 1;
             margin: 0.75rem;
         }
-        .item:first-child{
+
+        .item:first-child {
             flex: 2;
         }
-
     </style>
 </head>
+
 <body>
     <div id="container">
         <div class="item">
@@ -88,8 +91,8 @@
         <div class="item">
             <h3>item 3</h3>
         </div>
-
     </div>
-    
+
 </body>
+
 </html>
